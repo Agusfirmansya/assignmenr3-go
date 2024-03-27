@@ -21,7 +21,7 @@ type Status struct {
 
 func CreateStatus(w http.ResponseWriter, r *http.Request) {
 
-	tmpl, err := template.ParseFiles("./views/index.html")
+	tmpl, err := template.ParseFiles("./index.html")
 
 	if err != nil {
 		panic(err)
